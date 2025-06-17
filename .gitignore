@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Virtualenv
+venv/
+env/
+ENV/
+*.env
+*.venv
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+.DS_Store
+Thumbs.db
+
+# SQLite 
+db.sqlite3
+
+# Django migrations 
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+
+# Static 
+staticfiles/
+media/
+
+# Django secret config
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+
+# dotenv 
+.env
+.env.*
+
+# Coverage 
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# mypy, Pylint, Black 
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# VSCode settings
+*.code-workspace
